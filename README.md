@@ -31,6 +31,7 @@ The system recommends anime titles based on **meaning**, not exact keywords.
 - [📌 Key Takeaways](#-key-takeaways)
 - [🔮 Next Steps](#-next-steps)
 - [🛠️ Tools & Libraries](#️-tools--libraries)
+- [📦 Requirements](#-requirements)
 - [🧾 Author](#-author)
 
 ---
@@ -313,6 +314,30 @@ The system returns:
 - Sentence Transformers
 - FAISS
 - Pandas
+
+---
+
+## 📦 Requirements
+
+This project requires Python **3.9+** and the following dependencies.
+
+### Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+### Main dependencies
+
+- langchain
+- langchain-community
+- langchain-core
+- langchain-huggingface
+- transformers
+- sentence-transformers
+- faiss-cpu
+- pandas
+- numpy
 
 ---
 
